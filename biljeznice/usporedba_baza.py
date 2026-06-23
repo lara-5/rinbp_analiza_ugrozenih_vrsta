@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.23.9"
+__generated_with = "0.23.10"
 app = marimo.App(width="medium")
 
 
@@ -667,6 +667,16 @@ def _(kuzu_5_df, kuzu_5_t, mo, prikazi_usporedbu, sql_5_df, sql_5_t):
         kuzu_5_df, kuzu_5_t,
         mo=mo
     )
+    return
+
+
+@app.cell
+def _():
+    return
+
+
+@app.cell
+def _():
     return
 
 
