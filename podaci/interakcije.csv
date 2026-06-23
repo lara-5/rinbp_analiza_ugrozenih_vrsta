@@ -1,0 +1,7 @@
+ID_interakcije;interakcija;uloga1;uloga2;mutualan
+1;Predacija;Predator;Plijen;0
+2;Simbioza;Partner;Partner;1
+3;Parazitizam;Parazit;Domaćin;0
+4;Komensalizam;Korisnik;Domaćin;0
+5;Kompeticija;Konkurent;Konkurent;1
+6;Neutralizam;Subjekt;Subjekt;1

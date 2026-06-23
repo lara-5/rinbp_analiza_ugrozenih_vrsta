@@ -1,0 +1,12 @@
+# Marimo editor cache
+_marimo/
+_marimo/*
+
+# Database files
+baze/
+*.duckdb
+*.kuzu
+
+# Temporary files
+~$*
+*.tmp

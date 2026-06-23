@@ -1,0 +1,15 @@
+ID_stupnja;red_stupnja_ugrozenosti;oznaka_stupnja;opis_stupnja;SUSTAVI_STUPNJEVA_UGROZENOSTI_ID_sustava
+1;1;EX;Extinct;1
+2;2;EW;Extinct in the Wild;1
+3;3;CR;Critically Endangered;1
+4;4;EN;Endangered;1
+5;5;VU;Vulnerable;1
+6;6;NT;Near Threatened;1
+7;7;LC;Least Concern;1
+8;1;EX;Extinct;2
+9;2;EW;Extinct in the Wild;2
+10;3;CR;Critically Endangered;2
+11;4;EN;Endangered;2
+12;5;VU;Vulnerable;2
+13;6;NT;Near Threatened;2
+14;7;LC;Least Concern;2

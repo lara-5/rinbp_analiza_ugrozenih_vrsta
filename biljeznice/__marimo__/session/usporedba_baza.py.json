@@ -1,0 +1,601 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.10",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "bbb2c1d3bc030df452e6d3960ec52bc2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"usporedba-relacijske-i-grafovske-baze-podataka\">Usporedba relacijske i grafovske baze podataka</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "8a6f86e95ba68cd4a059d9f73bdc3179",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "c94d4fd8a6e54c0d586eb643eccedbbc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "b692842933db5af47c4f3de2b88aa482",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "DuckDB spojen: baze/relacijska_baza.duckdb\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "fba70c8ffda942f63c2e162454861975",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Kuzu spojen: baze/graf_baza.kuzu\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "PKri",
+      "code_hash": "bbfdd2914e285766c4a57d718964d6cf",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "f03b0b8b8c33b47556a2b3bd62794622",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "a6f5fb8fc5b55bd7509e88e8396f3279",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "f8f5c69e110e5734e549f1c099d10628",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"1-osnovni-1-hop-dohvat\">1. OSNOVNI 1-HOP DOHVAT</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "e8e925dca0419f206c9c480102dc586c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"11aktivnost-tima\">1.1.Aktivnost tima</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "c1ea49f5547da5ae945c1e9bf04b0eba",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "SQL gotov: 14.05 ms\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "emfo",
+      "code_hash": "ed86720f9ff3de35ff30c0b1498bbde1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Kuzu gotov: 18.73 ms\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "a23df45e7136ba8ed8d50339dd3139ff",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"11-aktivnost-tima\">1.1. Aktivnost tima</h3></span><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>DuckDB</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>14.05 ms</code></span></span><marimo-ui-element object-id='Hstk-0' random-id='8ce08ce9-3422-322c-5789-0ee5d8a447f7'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;_marimo_row_id&#92;&quot;:0,&#92;&quot;ID_tima&#92;&quot;:10,&#92;&quot;broj_clanova&#92;&quot;:10,&#92;&quot;broj_edukacija&#92;&quot;:20,&#92;&quot;broj_akcije&#92;&quot;:117}]&quot;' data-total-rows='1' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;ID_tima&quot;,[&quot;integer&quot;,&quot;int32&quot;]],[&quot;broj_clanova&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;broj_edukacija&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;broj_akcije&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-selection='&quot;multi&quot;' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='true' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Kuzu</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>18.73 ms</code></span></span><marimo-ui-element object-id='Hstk-1' random-id='073be47a-ed80-d711-2808-6006dd250603'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;_marimo_row_id&#92;&quot;:0,&#92;&quot;ID_tima&#92;&quot;:10,&#92;&quot;broj_clanova&#92;&quot;:10,&#92;&quot;broj_akcija&#92;&quot;:117,&#92;&quot;broj_edukacija&#92;&quot;:20}]&quot;' data-total-rows='1' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;ID_tima&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;broj_clanova&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;broj_akcija&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;broj_edukacija&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-selection='&quot;multi&quot;' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='true' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></div></div></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "c065b8f4fedf45f9bbe77dbeab9fbf3f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"21-rezervoar-pregled\">2.1. Rezervoar pregled</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "c6c49a903ed00b465eb5abc11e47e08b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "SQL 1B gotov: 10.96 ms\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "f8e3f09cef91f409979be49c11576d2f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Kuzu gotov: 72.90 ms\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "71b207ab27b0b863d4c2af275eb3f707",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"rezervoar-pregled\">Rezervoar pregled</h3></span><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>DuckDB</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>10.96 ms</code></span></span><marimo-ui-element object-id='ROlb-0' random-id='bb6101df-71de-5ede-0ac2-bb8e303aac25'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;_marimo_row_id&#92;&quot;:0,&#92;&quot;naziv_rezervoara&#92;&quot;:&#92;&quot;Rezervoar Gutierrez-Jones&#92;&quot;,&#92;&quot;mjesto&#92;&quot;:&#92;&quot;Sarahborough&#92;&quot;,&#92;&quot;trenutni_broj_vrsta&#92;&quot;:54,&#92;&quot;broj_akcija&#92;&quot;:39}]&quot;' data-total-rows='1' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;naziv_rezervoara&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;mjesto&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;trenutni_broj_vrsta&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;broj_akcija&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-selection='&quot;multi&quot;' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='true' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Kuzu</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>72.90 ms</code></span></span><marimo-ui-element object-id='ROlb-1' random-id='1aad61d7-c743-18ef-296d-be248a3a8fb3'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;_marimo_row_id&#92;&quot;:0,&#92;&quot;naziv_rezervoara&#92;&quot;:&#92;&quot;Rezervoar Gutierrez-Jones&#92;&quot;,&#92;&quot;mjesto&#92;&quot;:&#92;&quot;Sarahborough&#92;&quot;,&#92;&quot;trenutni_broj_vrsta&#92;&quot;:54,&#92;&quot;broj_akcija&#92;&quot;:39}]&quot;' data-total-rows='1' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;naziv_rezervoara&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;mjesto&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;trenutni_broj_vrsta&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;broj_akcija&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-selection='&quot;multi&quot;' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='true' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></div></div></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "170da24fb58d422e3270570fb9bf29f3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"2-stablasta-struktra\">2. STABLASTA STRUKTRA</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "0542170b913dbd579a18f7233efd329d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"21-taksonomija\">2.1. Taksonomija</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "f78845c5bcf669411a33710a5261a4d6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "SQL gotov: 21.28 ms\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "a266adddd49a6305444718bf2b5570fb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Kuzu gotov: 1360.69 ms\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "7b9e4ed8bda6003b99e1660001c4cea5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">veliku razliku braniti s:\n\"Ovaj workload u graf bazi je sporiji jer Cypher radi generalizirani graph traversal koji mo\u017ee generirati vi\u0161e putanja, dok relacijski model koristi deterministi\u010dki parent-pointer join koji prati jedinstvenu strukturu stabla.\"</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ecfG",
+      "code_hash": "20ca0c507d1c544ea345f865d0b6697b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"taksonomija-populacije\">Taksonomija populacije</h3></span><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>DuckDB</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>21.28 ms</code></span></span><marimo-ui-element object-id='ecfG-0' random-id='80e72797-deb5-f85b-1208-80f546a5e2cd'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;_marimo_row_id&#92;&quot;:0,&#92;&quot;ID_populacije&#92;&quot;:1,&#92;&quot;ime_taksonomske_kategorije&#92;&quot;:&#92;&quot;Vrsta_3013&#92;&quot;,&#92;&quot;tip_taksonomije&#92;&quot;:&#92;&quot;Vrsta&#92;&quot;,&#92;&quot;dubina&#92;&quot;:0},{&#92;&quot;_marimo_row_id&#92;&quot;:1,&#92;&quot;ID_populacije&#92;&quot;:1,&#92;&quot;ime_taksonomske_kategorije&#92;&quot;:&#92;&quot;Rod_737&#92;&quot;,&#92;&quot;tip_taksonomije&#92;&quot;:&#92;&quot;Rod&#92;&quot;,&#92;&quot;dubina&#92;&quot;:1},{&#92;&quot;_marimo_row_id&#92;&quot;:2,&#92;&quot;ID_populacije&#92;&quot;:1,&#92;&quot;ime_taksonomske_kategorije&#92;&quot;:&#92;&quot;Porodica_107&#92;&quot;,&#92;&quot;tip_taksonomije&#92;&quot;:&#92;&quot;Porodica&#92;&quot;,&#92;&quot;dubina&#92;&quot;:2},{&#92;&quot;_marimo_row_id&#92;&quot;:3,&#92;&quot;ID_populacije&#92;&quot;:1,&#92;&quot;ime_taksonomske_kategorije&#92;&quot;:&#92;&quot;Red_50&#92;&quot;,&#92;&quot;tip_taksonomije&#92;&quot;:&#92;&quot;Red&#92;&quot;,&#92;&quot;dubina&#92;&quot;:3},{&#92;&quot;_marimo_row_id&#92;&quot;:4,&#92;&quot;ID_populacije&#92;&quot;:1,&#92;&quot;ime_taksonomske_kategorije&#92;&quot;:&#92;&quot;Mammalia&#92;&quot;,&#92;&quot;tip_taksonomije&#92;&quot;:&#92;&quot;Razred&#92;&quot;,&#92;&quot;dubina&#92;&quot;:4},{&#92;&quot;_marimo_row_id&#92;&quot;:5,&#92;&quot;ID_populacije&#92;&quot;:1,&#92;&quot;ime_taksonomske_kategorije&#92;&quot;:&#92;&quot;Chordata&#92;&quot;,&#92;&quot;tip_taksonomije&#92;&quot;:&#92;&quot;Koljeno&#92;&quot;,&#92;&quot;dubina&#92;&quot;:5},{&#92;&quot;_marimo_row_id&#92;&quot;:6,&#92;&quot;ID_populacije&#92;&quot;:1,&#92;&quot;ime_taksonomske_kategorije&#92;&quot;:&#92;&quot;Animalia&#92;&quot;,&#92;&quot;tip_taksonomije&#92;&quot;:&#92;&quot;Carstvo&#92;&quot;,&#92;&quot;dubina&#92;&quot;:6}]&quot;' data-total-rows='7' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;ID_populacije&quot;,[&quot;integer&quot;,&quot;int32&quot;]],[&quot;ime_taksonomske_kategorije&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;tip_taksonomije&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;dubina&quot;,[&quot;integer&quot;,&quot;int32&quot;]]]' data-selection='&quot;multi&quot;' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='true' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Kuzu</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>1360.69 ms</code></span></span><marimo-ui-element object-id='ecfG-1' random-id='d24f99e1-a96c-dff8-af6b-f0dd2e3d20d6'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;_marimo_row_id&#92;&quot;:0,&#92;&quot;ID_populacije&#92;&quot;:1,&#92;&quot;ime_taksonomske_kategorije&#92;&quot;:&#92;&quot;Vrsta_3013&#92;&quot;,&#92;&quot;tip_taksonomije&#92;&quot;:&#92;&quot;Vrsta&#92;&quot;,&#92;&quot;dubina&#92;&quot;:0},{&#92;&quot;_marimo_row_id&#92;&quot;:1,&#92;&quot;ID_populacije&#92;&quot;:1,&#92;&quot;ime_taksonomske_kategorije&#92;&quot;:&#92;&quot;Rod_737&#92;&quot;,&#92;&quot;tip_taksonomije&#92;&quot;:&#92;&quot;Rod&#92;&quot;,&#92;&quot;dubina&#92;&quot;:1},{&#92;&quot;_marimo_row_id&#92;&quot;:2,&#92;&quot;ID_populacije&#92;&quot;:1,&#92;&quot;ime_taksonomske_kategorije&#92;&quot;:&#92;&quot;Porodica_107&#92;&quot;,&#92;&quot;tip_taksonomije&#92;&quot;:&#92;&quot;Porodica&#92;&quot;,&#92;&quot;dubina&#92;&quot;:2},{&#92;&quot;_marimo_row_id&#92;&quot;:3,&#92;&quot;ID_populacije&#92;&quot;:1,&#92;&quot;ime_taksonomske_kategorije&#92;&quot;:&#92;&quot;Red_50&#92;&quot;,&#92;&quot;tip_taksonomije&#92;&quot;:&#92;&quot;Red&#92;&quot;,&#92;&quot;dubina&#92;&quot;:3},{&#92;&quot;_marimo_row_id&#92;&quot;:4,&#92;&quot;ID_populacije&#92;&quot;:1,&#92;&quot;ime_taksonomske_kategorije&#92;&quot;:&#92;&quot;Mammalia&#92;&quot;,&#92;&quot;tip_taksonomije&#92;&quot;:&#92;&quot;Razred&#92;&quot;,&#92;&quot;dubina&#92;&quot;:4},{&#92;&quot;_marimo_row_id&#92;&quot;:5,&#92;&quot;ID_populacije&#92;&quot;:1,&#92;&quot;ime_taksonomske_kategorije&#92;&quot;:&#92;&quot;Chordata&#92;&quot;,&#92;&quot;tip_taksonomije&#92;&quot;:&#92;&quot;Koljeno&#92;&quot;,&#92;&quot;dubina&#92;&quot;:5},{&#92;&quot;_marimo_row_id&#92;&quot;:6,&#92;&quot;ID_populacije&#92;&quot;:1,&#92;&quot;ime_taksonomske_kategorije&#92;&quot;:&#92;&quot;Animalia&#92;&quot;,&#92;&quot;tip_taksonomije&#92;&quot;:&#92;&quot;Carstvo&#92;&quot;,&#92;&quot;dubina&#92;&quot;:6}]&quot;' data-total-rows='7' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;ID_populacije&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;ime_taksonomske_kategorije&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;tip_taksonomije&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;dubina&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-selection='&quot;multi&quot;' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='true' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></div></div></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "6bcdb0a051f73010f5f536af0d63cc72",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"3-many-to-many-veze\">3. MANY-TO-MANY VEZE</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "55b4bf1a3f8d8e010ecd93e411ea8a56",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"31-osobe-i-uloge-u-timu\">3.1. Osobe i uloge u timu</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aLJB",
+      "code_hash": "bb24537a9372b1639a7d39258e1a4dcc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "SQL gotov: 10.06 ms\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "nHfw",
+      "code_hash": "325cdb22f0cd58d596190dfe90bea49c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Kuzu gotov: 24.42 ms\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "xXTn",
+      "code_hash": "cae9015c766ba95eb66239bac4a6b387",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"osobe-i-uloge-u-timu-mn\">Osobe i uloge u timu (M:N)</h3></span><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>DuckDB</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>10.06 ms</code></span></span><marimo-ui-element object-id='xXTn-0' random-id='3228465e-e629-542c-d427-94ac04864c5f'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;_marimo_row_id&#92;&quot;:0,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Douglas Carroll&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Edukator&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:1,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Michelle Cross&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Edukator&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:2,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Shawn May&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Edukator&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:3,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Alexandria Murphy&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Edukator&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:4,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Victoria Gonzalez&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Koordinator&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:5,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Katherine Haney&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Koordinator&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:6,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Destiny Lambert&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Koordinator&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:7,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Jonathan Mitchell&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Tehni&#92;&#92;u010dar&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:8,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Joshua Jackson&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Voditelj&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:9,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Jack Munoz&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Volonter&#92;&quot;}]&quot;' data-total-rows='10' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;ID_tima&quot;,[&quot;integer&quot;,&quot;int32&quot;]],[&quot;ime_prezime&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;uloga&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-selection='&quot;multi&quot;' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='true' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Kuzu</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>24.42 ms</code></span></span><marimo-ui-element object-id='xXTn-1' random-id='737d43b3-ea21-12f4-2e70-291f98f27124'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;_marimo_row_id&#92;&quot;:0,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Douglas Carroll&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Edukator&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:1,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Michelle Cross&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Edukator&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:2,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Shawn May&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Edukator&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:3,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Alexandria Murphy&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Edukator&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:4,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Victoria Gonzalez&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Koordinator&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:5,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Katherine Haney&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Koordinator&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:6,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Destiny Lambert&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Koordinator&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:7,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Jonathan Mitchell&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Tehni&#92;&#92;u010dar&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:8,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Joshua Jackson&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Voditelj&#92;&quot;},{&#92;&quot;_marimo_row_id&#92;&quot;:9,&#92;&quot;ID_tima&#92;&quot;:1,&#92;&quot;ime_prezime&#92;&quot;:&#92;&quot;Jack Munoz&#92;&quot;,&#92;&quot;uloga&#92;&quot;:&#92;&quot;Volonter&#92;&quot;}]&quot;' data-total-rows='10' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;ID_tima&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;ime_prezime&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;uloga&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-selection='&quot;multi&quot;' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='true' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></div></div></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "AjVT",
+      "code_hash": "feb3e001b3aa78a729ac9c7afa4828d7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"4-filtering-attribute-query\">4. FILTERING + ATTRIBUTE QUERY</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pHFh",
+      "code_hash": "85cd022d6932a604bf9cdff1e779f442",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"41-slobodne-akcije-nije-dodijeljena-timu\">4.1. Slobodne akcije (nije dodijeljena timu)</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "NCOB",
+      "code_hash": "84e62a6677330391b9b50a81f5716861",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "SQL gotov: 17.90 / 17.90 / 16.42 ms\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "aqbW",
+      "code_hash": "336531d844ba6dcfd72a8eb30f7a51e5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Kuzu gotov: 183.30 / 101.11 / 65.35 ms\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "TRpd",
+      "code_hash": "71e18b75919bfaf70bb58c7f064f310c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"slobodne-akcije-bez-filtera\">Slobodne akcije (bez filtera)</h3></span><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>DuckDB</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>17.90 ms</code></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><em>(nema rezultata)</em></span></span></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Kuzu</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>183.30 ms</code></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><em>(nema rezultata)</em></span></span></div></div></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"slobodne-akcije-tip-brojanje\">Slobodne akcije (tip = Brojanje)</h3></span><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>DuckDB</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>17.90 ms</code></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><em>(nema rezultata)</em></span></span></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Kuzu</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>101.11 ms</code></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><em>(nema rezultata)</em></span></span></div></div></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"slobodne-akcije-staniste-livada-brandon-key\">Slobodne akcije (stani\u0161te = Livada Brandon Key)</h3></span><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>DuckDB</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>16.42 ms</code></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><em>(nema rezultata)</em></span></span></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Kuzu</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>65.35 ms</code></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><em>(nema rezultata)</em></span></span></div></div></div></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TXez",
+      "code_hash": "763e577cb6397d19710af60eb81ad8ab",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"5-kontekstualna-agregacija\">5. KONTEKSTUALNA AGREGACIJA</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "dNNg",
+      "code_hash": "cb384ab9b5133ff6124265136809b4db",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"51-rezervoar-predator-odnosi\">5.1. Rezervoar + predator odnosi</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "yCnT",
+      "code_hash": "c49d803d565e2cf10f23f26d0cdbf916",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "SQL gotov: 22.00 ms\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "wlCL",
+      "code_hash": "39253a11fcf4ad007bc741793207345e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Kuzu gotov: 131.95 ms\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "kqZH",
+      "code_hash": "ae4e284342eab5b730d4502df7d240c5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"rezervoar-predator-odnosi-kontekstualna-agregacija\">Rezervoar + predator odnosi (kontekstualna agregacija)</h3></span><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>DuckDB</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>22.00 ms</code></span></span><marimo-ui-element object-id='kqZH-0' random-id='ab490644-dcdb-9edc-af27-1357ef86375d'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;_marimo_row_id&#92;&quot;:0,&#92;&quot;naziv_rezervoara&#92;&quot;:&#92;&quot;Rezervoar Montoya LLC&#92;&quot;,&#92;&quot;ukupni_broj_vrsta&#92;&quot;:61,&#92;&quot;povrsina&#92;&quot;:318.6044,&#92;&quot;broj_predatora_u_rezervoaru&#92;&quot;:0,&#92;&quot;staniste_populacije&#92;&quot;:&#92;&quot;Rijeka Hurley Heights&#92;&quot;}]&quot;' data-total-rows='1' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;naziv_rezervoara&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;ukupni_broj_vrsta&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;povrsina&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;broj_predatora_u_rezervoaru&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;staniste_populacije&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-selection='&quot;multi&quot;' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='true' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Kuzu</strong></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">vrijeme: <code>131.95 ms</code></span></span><marimo-ui-element object-id='kqZH-1' random-id='e12fa1a5-eec6-2ea6-bce3-de41a6283708'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;_marimo_row_id&#92;&quot;:0,&#92;&quot;naziv_rezervoara&#92;&quot;:&#92;&quot;Rezervoar Montoya LLC&#92;&quot;,&#92;&quot;ukupni_broj_vrsta&#92;&quot;:61,&#92;&quot;povrsina&#92;&quot;:318.60439779471847,&#92;&quot;broj_predatora_u_rezervoaru&#92;&quot;:0,&#92;&quot;staniste_populacije&#92;&quot;:&#92;&quot;Rijeka Hurley Heights&#92;&quot;}]&quot;' data-total-rows='1' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;naziv_rezervoara&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;ukupni_broj_vrsta&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;povrsina&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;broj_predatora_u_rezervoaru&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;staniste_populacije&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-selection='&quot;multi&quot;' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='true' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></div></div></div>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}

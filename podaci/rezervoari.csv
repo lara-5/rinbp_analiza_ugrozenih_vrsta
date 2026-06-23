@@ -1,0 +1,1001 @@
+ID_rezervoara;naziv_rezervoara;pocetni_broj_vrsta;povrsina;MJESTA_ID_mjesta
+1;Rezervoar Montoya LLC;24;318.60439779471847;256
+2;Rezervoar Harris, Abbott and Edwards;23;268.07178281969243;500
+3;Rezervoar Chapman-Diaz;44;49.38592491430378;350
+4;Rezervoar Washington Ltd;19;300.2594343327729;294
+5;Rezervoar Steele PLC;22;445.82694642922354;362
+6;Rezervoar Bradford, Mercado and Perry;98;89.56851368514471;77
+7;Rezervoar Rodriguez, Brooks and Elliott;56;16.14049188359991;20
+8;Rezervoar Vance, Harper and Graham;68;444.2285375226859;407
+9;Rezervoar Rosales Ltd;15;403.7952124788592;160
+10;Rezervoar Crawford Inc;37;54.77968675775789;350
+11;Rezervoar Smith Ltd;23;295.4630572849954;86
+12;Rezervoar Gomez Inc;12;249.32787367244575;309
+13;Rezervoar Taylor, Livingston and Farmer;19;498.67361091064373;472
+14;Rezervoar Diaz-Willis;43;468.9713129317676;476
+15;Rezervoar Silva-Cook;84;274.4422365356482;200
+16;Rezervoar Harris-Green;100;224.51985481427263;60
+17;Rezervoar Gilmore-Hart;85;277.6764605318481;174
+18;Rezervoar Guerrero, Gonzalez and Woods;31;183.48106180540697;123
+19;Rezervoar Delacruz, Neal and Adams;62;94.98175258362983;207
+20;Rezervoar Miller, Oconnor and Moss;5;179.80238178561228;470
+21;Rezervoar Rice, Harrell and Rodriguez;61;405.6427740004441;466
+22;Rezervoar Davis, Logan and Barker;84;354.11107999497017;430
+23;Rezervoar Becker, Wilson and Hall;75;50.291404687161;267
+24;Rezervoar Bishop-Rich;11;332.09278733840034;165
+25;Rezervoar Clark Inc;67;281.935351922872;360
+26;Rezervoar Young-Hill;68;261.3147361926605;388
+27;Rezervoar Whitehead, Smith and Marshall;69;321.95605476398106;145
+28;Rezervoar Thomas PLC;41;68.60235866534988;391
+29;Rezervoar Ingram-Butler;25;147.1866174651637;321
+30;Rezervoar Reese Group;54;202.71480476956273;194
+31;Rezervoar Brewer, Skinner and Hardy;10;245.74220624486532;252
+32;Rezervoar Leonard and Sons;13;161.43573495049208;248
+33;Rezervoar Doyle PLC;78;195.01551886381873;255
+34;Rezervoar White Inc;100;385.59964519969947;395
+35;Rezervoar Campbell-Carter;87;349.7519251965184;271
+36;Rezervoar Allen, Stewart and Munoz;5;94.8513722303744;46
+37;Rezervoar Parsons, Osborne and Garcia;39;446.1541763555069;383
+38;Rezervoar Willis-Alvarez;73;271.85072878380134;329
+39;Rezervoar Solis and Sons;40;369.8892693961416;274
+40;Rezervoar Berg, Frey and Garza;3;24.556566934416644;156
+41;Rezervoar Warner Ltd;49;94.93126639374373;494
+42;Rezervoar Dixon and Sons;68;27.16519235856318;423
+43;Rezervoar Hill Inc;87;436.9788968374448;379
+44;Rezervoar Williams-Martinez;65;262.46823483527584;92
+45;Rezervoar Calderon, Rollins and Christian;65;186.04113849912252;358
+46;Rezervoar Allen Group;5;455.4203885572559;51
+47;Rezervoar Hill, Scott and Walker;58;475.0321862896307;457
+48;Rezervoar Franco Ltd;28;356.4928789350014;38
+49;Rezervoar Kennedy, Jackson and Mann;91;102.6005084897751;106
+50;Rezervoar Davis, Walker and Sanchez;73;320.57014974873886;8
+51;Rezervoar Meyer-Hall;5;461.1210829419112;106
+52;Rezervoar Martin, Martin and Miller;88;59.049181671677566;149
+53;Rezervoar Gates-Austin;0;452.2935032766558;338
+54;Rezervoar Tucker, Barnes and Richardson;42;492.21658052021127;200
+55;Rezervoar Powell-Miller;29;186.5201049512197;429
+56;Rezervoar Benton-Smith;51;23.33363631225052;73
+57;Rezervoar Butler Inc;76;123.84040829733092;343
+58;Rezervoar Taylor, Rodriguez and Anderson;33;441.09045016144745;217
+59;Rezervoar Bryant Ltd;87;285.6993268160227;443
+60;Rezervoar Reynolds-Ball;80;155.55988499696002;482
+61;Rezervoar Morgan, Montoya and Price;83;368.58015061135853;140
+62;Rezervoar Anderson, Avila and Sanchez;52;345.4503472976645;213
+63;Rezervoar Cook, Schultz and Garcia;52;189.18874933395722;432
+64;Rezervoar Nelson PLC;24;408.5455960916984;250
+65;Rezervoar Weaver-Barker;32;300.46468375775527;321
+66;Rezervoar Nguyen, Lawrence and Wilkins;88;198.3387683991929;357
+67;Rezervoar Wilkinson PLC;98;225.11497382309457;340
+68;Rezervoar Hicks-Richards;88;112.26432114982345;327
+69;Rezervoar Scott, Nelson and Pruitt;14;58.523922430746154;462
+70;Rezervoar Ramirez, Wheeler and Taylor;62;34.183657158135745;275
+71;Rezervoar Owens-Thomas;41;84.51600087291041;379
+72;Rezervoar Roberts LLC;32;477.7032849473647;367
+73;Rezervoar Frey-Shelton;88;199.70406414656773;275
+74;Rezervoar Copeland-Jenkins;36;143.06770802213651;292
+75;Rezervoar Scott, Smith and Baker;33;55.13753407995142;62
+76;Rezervoar Nguyen-Salas;50;411.61586288298827;453
+77;Rezervoar Green-Fisher;25;475.1543281090634;285
+78;Rezervoar Washington-Black;63;101.19329735212325;266
+79;Rezervoar Stevenson-Moore;4;235.00953708537722;56
+80;Rezervoar Warner PLC;14;115.093894481492;427
+81;Rezervoar Ferguson, Robles and Evans;49;93.05468579918444;391
+82;Rezervoar Hancock-Dyer;88;403.39814769203053;124
+83;Rezervoar Perez, Johnson and Allen;55;308.0450925982002;225
+84;Rezervoar Alvarez PLC;94;72.23659529961559;306
+85;Rezervoar Moore-Young;98;21.484901501055813;479
+86;Rezervoar Garcia, Frank and Warner;64;383.6283004230208;97
+87;Rezervoar Fry, Peterson and Rose;98;106.00524747170633;163
+88;Rezervoar Lewis, Washington and Woodard;5;284.8318741477382;486
+89;Rezervoar Goodman Group;19;171.3323986000142;487
+90;Rezervoar Martinez, Cox and Houston;32;460.99804770640264;180
+91;Rezervoar Scott and Sons;59;101.12399969905498;330
+92;Rezervoar Arellano-Mcneil;7;196.26462033865704;79
+93;Rezervoar Moran PLC;37;253.29170377374467;116
+94;Rezervoar Clark, Todd and Lopez;23;313.979600645417;172
+95;Rezervoar Taylor-Hall;84;360.8693604245553;13
+96;Rezervoar Mcintyre-Williams;56;35.62205833843145;126
+97;Rezervoar Sloan-Greene;77;264.7497445763309;286
+98;Rezervoar Robinson-Woods;20;72.53836158673873;494
+99;Rezervoar Williams, Jordan and Martin;40;29.29985058733472;351
+100;Rezervoar Stark, Munoz and Beck;8;205.55215996880534;274
+101;Rezervoar Orr, Hurley and Clark;2;309.67452638239223;87
+102;Rezervoar Moore-Gay;92;466.4674812295025;190
+103;Rezervoar Peterson, Moreno and Ponce;4;72.59975187374864;54
+104;Rezervoar Diaz-Fleming;87;117.5973203252621;196
+105;Rezervoar Stafford, Floyd and Montes;0;281.7931166078921;417
+106;Rezervoar Moore Inc;49;384.57902116261744;62
+107;Rezervoar Munoz, Mcbride and Wise;28;381.3259488159046;19
+108;Rezervoar Koch-Acosta;72;273.2456841833001;11
+109;Rezervoar Mills, Hubbard and Elliott;83;412.17520452659517;244
+110;Rezervoar Lane, Mcpherson and Barnett;73;322.7502863976457;145
+111;Rezervoar Martinez, Garcia and Best;87;308.40849661824706;231
+112;Rezervoar Nelson, Hoffman and Crawford;95;119.59685511706546;252
+113;Rezervoar Castro, Mitchell and Deleon;78;125.77111489495616;326
+114;Rezervoar Jenkins and Sons;58;240.08541234429055;461
+115;Rezervoar Barrett PLC;19;227.6573754153466;451
+116;Rezervoar Rios, Hendrix and Morgan;46;112.69607786878413;147
+117;Rezervoar Gonzalez-Campbell;81;365.7582889273928;494
+118;Rezervoar Chavez, Garcia and Larson;49;499.571099812897;452
+119;Rezervoar Garrett LLC;20;184.67096978621765;11
+120;Rezervoar Poole PLC;55;402.9197889911307;74
+121;Rezervoar Harding, Lopez and Hernandez;5;230.5061027092885;364
+122;Rezervoar Clayton Inc;69;425.9901404177086;206
+123;Rezervoar Salazar Inc;16;420.2275386722643;181
+124;Rezervoar Yang, Hines and Walker;26;470.9986656195699;216
+125;Rezervoar Lee-Anderson;53;230.83018799864644;232
+126;Rezervoar Perez, Sandoval and Rios;56;476.2346962752415;238
+127;Rezervoar Jimenez, Yu and Torres;46;169.56286477803792;341
+128;Rezervoar Shaw-Combs;51;67.42422461457954;272
+129;Rezervoar Johnson, Tucker and Huang;26;123.75755101638056;365
+130;Rezervoar Bartlett and Sons;24;284.62491011698813;486
+131;Rezervoar Simpson-Shepherd;93;330.0036630427745;317
+132;Rezervoar Reynolds, Greene and Miller;46;450.276810282652;281
+133;Rezervoar Turner Inc;97;396.24707387161135;192
+134;Rezervoar Hays, Huff and Hopkins;82;154.1425924788663;202
+135;Rezervoar Hubbard-Davies;18;235.64599269044726;278
+136;Rezervoar Curtis-Ward;83;226.70758546039323;464
+137;Rezervoar Alexander PLC;99;435.18534845988785;212
+138;Rezervoar Fuller, Jones and Thomas;6;100.50546387860096;173
+139;Rezervoar Clark, Davis and Schroeder;70;445.0724023670178;338
+140;Rezervoar Snyder-Johnston;49;468.6238661723802;222
+141;Rezervoar Simmons LLC;23;471.6564408320724;13
+142;Rezervoar Velazquez PLC;88;104.02018748670342;291
+143;Rezervoar Williams LLC;85;86.99805420180162;382
+144;Rezervoar Beltran-Walton;87;282.1186384249536;80
+145;Rezervoar Kim-Brown;82;201.53636535226923;401
+146;Rezervoar Grimes, Walker and Price;25;76.19094527686813;163
+147;Rezervoar Bridges-Richardson;59;123.60354192664484;379
+148;Rezervoar Bird Inc;16;381.5475146002693;250
+149;Rezervoar Cruz Group;40;305.5686639590344;391
+150;Rezervoar Bailey, Callahan and Allen;78;265.76346728893736;322
+151;Rezervoar Chaney-Young;4;338.4185148062947;403
+152;Rezervoar Mathews-Hayes;8;43.78927916818533;5
+153;Rezervoar Montoya, Davis and Steele;6;166.4228090528239;47
+154;Rezervoar Pham-Diaz;40;465.8497605994349;183
+155;Rezervoar Glenn and Sons;25;372.04856877886397;491
+156;Rezervoar Frost Inc;27;154.47335985674394;34
+157;Rezervoar Vargas Inc;46;311.9926113017913;162
+158;Rezervoar Moore, Russell and Haas;74;452.35305781885234;229
+159;Rezervoar Stanton-Rivera;60;169.97176534755528;90
+160;Rezervoar Davis PLC;37;152.31699891871395;411
+161;Rezervoar Boyd, Johnson and Harrell;71;80.74639007827423;451
+162;Rezervoar Miller, Moore and Hernandez;19;82.46511583162656;61
+163;Rezervoar Johnson-Johnson;68;455.20551379417;210
+164;Rezervoar Nunez-Hawkins;20;281.2703715906164;322
+165;Rezervoar Rhodes and Sons;60;350.23144446066175;144
+166;Rezervoar Johnston LLC;88;424.14935869665555;128
+167;Rezervoar Sweeney-Solis;14;332.27067589577666;76
+168;Rezervoar Mckay-Campos;56;49.43739797235342;21
+169;Rezervoar Ramirez, Bennett and Cain;17;440.23566846619264;243
+170;Rezervoar Guzman-Phillips;48;238.96314246251072;393
+171;Rezervoar Lam-Farley;2;293.50151080915794;419
+172;Rezervoar Clark LLC;46;465.5401483478197;300
+173;Rezervoar Kelly Ltd;73;91.73499904736408;458
+174;Rezervoar Moore-Velazquez;2;485.1780567645411;485
+175;Rezervoar Moore-Madden;85;283.8247200293137;454
+176;Rezervoar Coleman-Camacho;43;493.9198340879399;454
+177;Rezervoar Kirk, Jackson and Buck;47;35.37610589295998;70
+178;Rezervoar Price-Snyder;79;150.7521660403103;202
+179;Rezervoar Alexander, Smith and Ballard;19;56.374936099763964;479
+180;Rezervoar Case-Avila;85;99.36878176648898;325
+181;Rezervoar Ramsey-Jackson;41;146.8823820575526;406
+182;Rezervoar Ward Group;100;42.45327470452496;309
+183;Rezervoar Cordova-Thomas;63;8.961811835387586;457
+184;Rezervoar Munoz-Patel;75;209.4515918929815;87
+185;Rezervoar Nelson-Olson;46;425.7751601495234;99
+186;Rezervoar Wilkinson, Moyer and Mcintosh;65;140.84267436739918;267
+187;Rezervoar Neal and Sons;3;245.31491602186267;464
+188;Rezervoar Jefferson-Lara;21;26.953523941734048;123
+189;Rezervoar Tucker, Dougherty and Jones;89;154.01142356018406;230
+190;Rezervoar Williams-Bailey;55;169.42139619728482;140
+191;Rezervoar Young-Henson;95;497.55325161012087;337
+192;Rezervoar Wood, Mcintosh and Davis;58;330.0458504709739;171
+193;Rezervoar Fowler, Vaughan and Stewart;70;16.655529828326962;447
+194;Rezervoar Scott Inc;79;6.328261901333821;294
+195;Rezervoar Johnson-Figueroa;2;152.05252399261957;103
+196;Rezervoar Pittman Group;60;190.62844971425955;19
+197;Rezervoar Daugherty, Brown and Warren;88;336.28005494081646;357
+198;Rezervoar Johnson, Ballard and Allen;48;168.48182123921922;412
+199;Rezervoar Higgins, Wood and Bell;65;426.95970381671845;402
+200;Rezervoar Newman, Herring and Simmons;54;204.1903234193696;176
+201;Rezervoar Baker-Hoffman;16;471.51022155414006;369
+202;Rezervoar Cannon-Cole;33;276.63894206478307;251
+203;Rezervoar Ingram, Dawson and Green;36;134.06959242053145;468
+204;Rezervoar Gross-Weeks;57;459.4692812951814;44
+205;Rezervoar Carpenter, Lucero and Simon;85;456.7575062810506;442
+206;Rezervoar Lewis-Moreno;65;448.01375251001946;12
+207;Rezervoar Nguyen-Robertson;16;403.3071003799857;55
+208;Rezervoar Petty, Mercado and Rice;31;38.13289891463891;192
+209;Rezervoar Roman Group;8;77.8490577741153;411
+210;Rezervoar Atkins, Sawyer and Solomon;30;389.65946222548297;443
+211;Rezervoar House-Hines;9;5.8129767092350875;7
+212;Rezervoar Brown PLC;94;403.6861362921168;446
+213;Rezervoar Cook Inc;79;36.12100474510826;299
+214;Rezervoar Garrison, Richmond and Boyd;80;482.8565238029013;497
+215;Rezervoar Green, Rodriguez and Mathis;58;315.8704555543312;170
+216;Rezervoar Leach, Shelton and Gates;100;332.80409726359346;314
+217;Rezervoar Gutierrez-Jones;15;29.027041430545324;72
+218;Rezervoar Day, Jensen and Moore;25;459.08308353488127;475
+219;Rezervoar Jackson-Gonzales;10;93.6018291470426;368
+220;Rezervoar Smith Inc;11;2.916726440576549;406
+221;Rezervoar Thomas, Robles and Ali;87;117.30479773804025;26
+222;Rezervoar Oneill-Davidson;91;40.62656632858196;165
+223;Rezervoar Flores PLC;80;265.1374070877332;244
+224;Rezervoar Bell-Brown;25;354.4105751587216;254
+225;Rezervoar Briggs Inc;77;353.43071693067526;241
+226;Rezervoar Higgins, Bennett and Walker;36;366.05080670418965;304
+227;Rezervoar Smith, Roberts and Roman;7;221.8156478127762;260
+228;Rezervoar Tyler-Rodriguez;0;40.699591351670016;499
+229;Rezervoar Moore-Elliott;25;132.36753588022657;450
+230;Rezervoar Roberts, Barrett and Lewis;69;288.14160644552953;97
+231;Rezervoar Murphy-Benton;89;62.8811433742283;390
+232;Rezervoar Carroll-Cortez;9;94.91105932248365;435
+233;Rezervoar Fletcher Ltd;41;378.3868342861401;117
+234;Rezervoar Stafford, Adams and Jones;20;197.9393184707549;429
+235;Rezervoar Bryant and Sons;75;149.06302848588993;212
+236;Rezervoar Christensen Ltd;64;320.6568931670197;112
+237;Rezervoar Johnson-Stevens;54;126.2239495546357;177
+238;Rezervoar Baker, Bass and Garza;94;121.14457635391405;4
+239;Rezervoar Marshall, Marsh and Young;83;445.3874811463161;350
+240;Rezervoar Maddox Inc;32;141.44311950649507;83
+241;Rezervoar Pham-Norton;8;31.74816683179664;253
+242;Rezervoar Reed-Jackson;44;451.44403821769487;31
+243;Rezervoar Gutierrez-Williams;79;378.0694119187746;221
+244;Rezervoar Smith Group;10;337.34347790816776;461
+245;Rezervoar Lynch, Pearson and Ramos;91;223.52007219931087;382
+246;Rezervoar Williams-Wheeler;86;45.02761088967788;302
+247;Rezervoar Brown-Palmer;98;458.25035870316515;186
+248;Rezervoar Wood Ltd;89;340.8593268032962;348
+249;Rezervoar Patton, James and Delacruz;8;285.0313631963448;373
+250;Rezervoar Smith, Davis and Rose;40;225.94268848522114;381
+251;Rezervoar Hartman-Cochran;61;185.85125287881323;154
+252;Rezervoar Smith Inc;97;245.05464119779958;280
+253;Rezervoar Garcia and Sons;95;95.95224048813955;301
+254;Rezervoar Anderson Inc;21;22.30704237328052;181
+255;Rezervoar Park PLC;52;233.00746329953782;237
+256;Rezervoar Sawyer PLC;41;461.79956420756554;434
+257;Rezervoar Flores Ltd;51;232.34830514693618;461
+258;Rezervoar Martinez Inc;59;226.63602765045863;73
+259;Rezervoar Kerr, Gross and Knight;94;375.5254896387198;215
+260;Rezervoar Barber-Rodriguez;3;436.807518203382;404
+261;Rezervoar Moon-Graham;40;191.34721818485335;446
+262;Rezervoar Santana, Cameron and Williams;80;75.54258001081426;188
+263;Rezervoar Campbell LLC;1;217.75625241470468;419
+264;Rezervoar Miller Group;84;452.77579234702284;78
+265;Rezervoar Huff PLC;75;473.0754240361668;112
+266;Rezervoar Manning LLC;12;9.178293349255062;242
+267;Rezervoar Bradley LLC;19;136.1741508939884;102
+268;Rezervoar Barr PLC;2;249.16389537396816;82
+269;Rezervoar Hunter-Hughes;38;415.0593039813838;438
+270;Rezervoar Griffin-Rodriguez;70;139.5571280989193;98
+271;Rezervoar Smith-Patton;62;303.80567474023155;256
+272;Rezervoar King-Turner;55;218.1186791637399;437
+273;Rezervoar Myers, Murphy and Stanton;20;244.18372852788013;341
+274;Rezervoar Hill, Rodgers and Santana;7;177.33133412717484;55
+275;Rezervoar Richard Ltd;8;476.5222077318874;362
+276;Rezervoar Moon LLC;61;304.30100834646527;73
+277;Rezervoar Warren, Rivera and Owens;30;259.8625872189227;254
+278;Rezervoar Williamson-Arellano;27;208.75636143805778;7
+279;Rezervoar Mcgrath and Sons;39;316.1227938319936;174
+280;Rezervoar Thomas-King;80;155.99534990895333;317
+281;Rezervoar Barnes and Sons;54;306.2017532795805;307
+282;Rezervoar White-Wilson;16;265.28872349609924;175
+283;Rezervoar Soto-Roberts;92;187.30399245586256;353
+284;Rezervoar Jimenez-Martinez;16;185.41420247479164;497
+285;Rezervoar Nixon, Hernandez and Moore;60;32.49937105057522;229
+286;Rezervoar Davis-Clark;47;209.08328876501926;108
+287;Rezervoar Anderson, Young and Osborne;41;344.4526063538025;466
+288;Rezervoar Cole-Decker;40;317.301842592308;462
+289;Rezervoar Ramirez-Holmes;60;393.61626309145345;285
+290;Rezervoar Thompson Ltd;43;289.03267901476613;170
+291;Rezervoar Spencer-Porter;89;97.99450811763145;66
+292;Rezervoar Mendez Inc;41;391.0159664057805;294
+293;Rezervoar Salazar-Hall;29;354.344336657409;313
+294;Rezervoar Lane, Hughes and Myers;30;406.8476253823104;128
+295;Rezervoar Todd-Kim;62;282.08571212296573;456
+296;Rezervoar Gray, Chen and Valentine;2;157.41656413651458;451
+297;Rezervoar Franklin, Hamilton and Curtis;12;192.68752825517927;76
+298;Rezervoar George, Meadows and Walsh;79;161.50581072697435;271
+299;Rezervoar Conner-Vasquez;62;231.88194206131462;462
+300;Rezervoar Evans-Cuevas;93;133.73765247610058;231
+301;Rezervoar Hancock-Archer;49;388.93917578755077;406
+302;Rezervoar Little-Allison;98;138.82897240103705;74
+303;Rezervoar Torres, Russell and Mcdonald;46;424.0386186547717;31
+304;Rezervoar Potts, Sanchez and Ochoa;60;124.04622270497175;325
+305;Rezervoar Cole, Cooper and Scott;0;164.27997451818146;423
+306;Rezervoar Shaw-Perkins;79;241.79400746060213;75
+307;Rezervoar Kirby, Boyd and Sweeney;100;137.1060260040845;164
+308;Rezervoar Thomas and Sons;62;492.6570000407842;310
+309;Rezervoar Saunders-Simmons;68;100.82911151829423;416
+310;Rezervoar Scott-Gross;82;94.9093333922708;473
+311;Rezervoar Roberts, Porter and Torres;76;302.9356236462358;152
+312;Rezervoar Townsend, Roberts and Patterson;93;31.220912739723463;454
+313;Rezervoar Cooper-Hill;24;262.22759375442115;259
+314;Rezervoar Lopez Ltd;36;124.86500837328987;193
+315;Rezervoar Cortez and Sons;54;350.6224007194838;437
+316;Rezervoar Garcia, Evans and Cruz;1;149.79032961452717;105
+317;Rezervoar Sherman-Stafford;18;148.7555833057803;15
+318;Rezervoar Carter, Nolan and Harris;83;322.3501515792641;216
+319;Rezervoar Jackson, Good and Taylor;10;184.94719310108422;398
+320;Rezervoar Torres LLC;18;223.8958625668216;196
+321;Rezervoar Sanchez, Bailey and Butler;71;79.33223052567752;228
+322;Rezervoar Odom PLC;97;157.72941884968193;480
+323;Rezervoar Richmond, Hubbard and Cabrera;35;228.5156749240963;102
+324;Rezervoar Lambert-Turner;90;303.6646932528422;146
+325;Rezervoar Hernandez, Smith and Cobb;20;293.6536873440392;166
+326;Rezervoar Skinner PLC;2;62.833556325430536;445
+327;Rezervoar Smith, Harris and Pacheco;41;276.7349860748176;189
+328;Rezervoar Fowler-Jones;18;158.31909694575043;369
+329;Rezervoar Miller, Diaz and Bryant;48;275.51343238880605;322
+330;Rezervoar Garcia LLC;55;323.5178304584192;203
+331;Rezervoar Wilson Inc;22;163.97862225717265;429
+332;Rezervoar Goodman-Rice;97;18.23246088748323;145
+333;Rezervoar James, Hernandez and Jones;41;283.242827597925;292
+334;Rezervoar Lynch and Sons;5;441.7465469639188;29
+335;Rezervoar Jones, Howard and Ford;92;358.9178450712442;68
+336;Rezervoar Calhoun, Morgan and Ray;63;32.87507328798931;35
+337;Rezervoar Bennett PLC;17;76.63339307922388;268
+338;Rezervoar Gilmore-Diaz;20;470.1212714628357;121
+339;Rezervoar Eaton-Wilkins;11;377.57512342779444;498
+340;Rezervoar Mullins, Wolf and Martinez;45;169.7408665977284;212
+341;Rezervoar Brown-Rios;43;375.6744957619807;253
+342;Rezervoar Hawkins, Davis and Johnson;51;273.0105791092893;269
+343;Rezervoar Wyatt, Phillips and Smith;53;321.26753534432214;203
+344;Rezervoar Stevens and Sons;88;78.33702043071878;422
+345;Rezervoar Brady Ltd;11;407.36771170362846;230
+346;Rezervoar Rogers-Knight;20;58.50932471915535;467
+347;Rezervoar Griffin Group;33;114.47068119342192;29
+348;Rezervoar Lopez, Smith and Chen;82;342.07744706634134;13
+349;Rezervoar Reyes and Sons;6;321.8083771214164;358
+350;Rezervoar Savage Group;28;239.86792289581166;22
+351;Rezervoar Doyle-Neal;28;379.5053435422492;487
+352;Rezervoar Miller and Sons;19;477.2560890195599;71
+353;Rezervoar Francis Group;64;160.41004900747666;199
+354;Rezervoar Perez-Carlson;96;317.53096842364397;203
+355;Rezervoar Riddle-Hill;2;255.61322588475642;149
+356;Rezervoar Jefferson-Oconnell;63;12.733054780597898;366
+357;Rezervoar Griffith-Carter;89;208.05441864926746;35
+358;Rezervoar Walker, Bauer and Santiago;5;100.86207673135893;19
+359;Rezervoar Cross-Oneal;26;115.52348916818833;252
+360;Rezervoar Shepard-Hunter;0;175.34138547785787;42
+361;Rezervoar Bass Ltd;74;440.9418311766609;261
+362;Rezervoar Wiggins, Brown and Crawford;21;199.19356358927777;78
+363;Rezervoar Ramsey, Vaughn and Barber;68;4.6676225415253985;322
+364;Rezervoar Odonnell-Wiggins;95;311.77313373556103;137
+365;Rezervoar Patel-Douglas;71;187.77598969585398;199
+366;Rezervoar Sanchez-Gibbs;20;417.5763493075324;387
+367;Rezervoar Freeman-Rogers;77;128.8828351639836;101
+368;Rezervoar Fry, Washington and Colon;41;449.06613591991794;202
+369;Rezervoar Torres, Montoya and Ellis;15;325.58085585687667;232
+370;Rezervoar Peters, Lawrence and White;3;223.3261779031199;496
+371;Rezervoar Morgan-Holt;83;336.2513392447736;395
+372;Rezervoar Chandler LLC;51;103.0904405357777;58
+373;Rezervoar Martinez Inc;5;194.3385801800584;55
+374;Rezervoar Evans PLC;95;466.6086868363837;106
+375;Rezervoar Ross, Rodriguez and Gallegos;25;380.1198813954985;377
+376;Rezervoar Griffin-Morris;95;150.0062824609273;354
+377;Rezervoar Watson-Knight;86;107.95687226533457;304
+378;Rezervoar Johnson, Reed and Warner;38;181.10822244305984;28
+379;Rezervoar James, Mahoney and Bray;82;313.43269911911494;291
+380;Rezervoar Wheeler-Atkinson;32;109.18622290371799;13
+381;Rezervoar Young LLC;39;7.167807668412828;425
+382;Rezervoar House Ltd;23;430.31864686036164;106
+383;Rezervoar Johnson Ltd;63;473.4507419485681;199
+384;Rezervoar Jacobson, Pena and Rojas;92;164.35203778359502;201
+385;Rezervoar Larson Ltd;77;377.1754623686029;472
+386;Rezervoar Cline LLC;62;240.60761134217756;306
+387;Rezervoar Steele-Gibson;36;397.70658464285594;342
+388;Rezervoar Barnett-Robinson;31;39.75938850319969;55
+389;Rezervoar Montoya and Sons;0;426.4880179134664;318
+390;Rezervoar Cox-Ball;6;428.7258227437343;485
+391;Rezervoar Roman-Martinez;35;465.14955418560453;156
+392;Rezervoar Rojas Inc;56;191.3290369782251;291
+393;Rezervoar Wallace Inc;20;49.519102325405015;189
+394;Rezervoar Young-Clark;27;323.24028579296123;498
+395;Rezervoar Gonzalez, Thomas and Carter;54;371.18139651675426;191
+396;Rezervoar Chen, Martinez and Miller;9;140.70936168973168;335
+397;Rezervoar Riley-Collins;2;149.43749364801792;18
+398;Rezervoar Simpson, Kelley and Jones;15;151.7230072526425;135
+399;Rezervoar Hall Ltd;58;465.13274929814463;455
+400;Rezervoar Lewis, Kemp and Caldwell;26;61.042185401795585;326
+401;Rezervoar Silva, Durham and Sloan;95;476.2600716220772;406
+402;Rezervoar Ryan-Wise;3;440.26499311320845;478
+403;Rezervoar Rivera and Sons;60;88.11606340972837;58
+404;Rezervoar Kerr, Lewis and Coleman;11;362.67970594887885;234
+405;Rezervoar Gonzalez-Osborne;74;347.7643699509275;140
+406;Rezervoar Jordan and Sons;34;12.256914889331771;289
+407;Rezervoar Schneider PLC;61;32.57863804687243;355
+408;Rezervoar Mahoney Group;19;108.52231173600047;204
+409;Rezervoar Ferguson, Bowen and Alvarez;86;189.33508630036678;20
+410;Rezervoar Hernandez-Neal;63;216.81127436753476;239
+411;Rezervoar Rivera-Edwards;52;88.33642333359009;7
+412;Rezervoar Sandoval-Tyler;73;448.8066484926106;337
+413;Rezervoar Steele Group;8;479.7550123035683;449
+414;Rezervoar Duffy, Johnson and Reyes;35;355.2409706227685;369
+415;Rezervoar Watkins, Sutton and May;61;102.14661716795386;137
+416;Rezervoar Payne, Church and Rojas;3;335.95003718666175;494
+417;Rezervoar Rivera, Callahan and Carter;24;118.17443197330775;230
+418;Rezervoar Mitchell-Armstrong;0;497.9228899809787;23
+419;Rezervoar Garcia Inc;72;417.8608482751407;223
+420;Rezervoar Flores Ltd;71;476.1210691092202;251
+421;Rezervoar Weaver, Collins and Johnson;29;358.06909250751005;381
+422;Rezervoar Goodman-Martinez;6;143.97203724573075;46
+423;Rezervoar Williams, Moran and Douglas;76;184.28127964342;421
+424;Rezervoar Baldwin Group;60;272.7507805659135;192
+425;Rezervoar Jackson Ltd;84;451.0086257924502;372
+426;Rezervoar Singh-Pierce;70;270.8427405409675;165
+427;Rezervoar Thomas Ltd;94;320.01777815853865;209
+428;Rezervoar Patterson LLC;22;290.52568391328913;191
+429;Rezervoar Davis-Dominguez;59;491.77288300820527;393
+430;Rezervoar Copeland Ltd;37;74.66895985826486;345
+431;Rezervoar Lloyd PLC;96;444.825111514038;346
+432;Rezervoar Miller-Santiago;69;204.50506328645415;493
+433;Rezervoar Roberts, Morris and Nelson;55;44.13633422906541;130
+434;Rezervoar Johnson Group;17;167.06923383053254;184
+435;Rezervoar Carter, Rogers and Lowe;82;233.81103186259867;386
+436;Rezervoar Rojas-Harrison;69;431.03818025803935;85
+437;Rezervoar Martinez-Oneal;5;172.38342685751678;471
+438;Rezervoar Underwood-Goodman;80;73.3801959439924;175
+439;Rezervoar Parrish-Mason;69;316.7160259945283;382
+440;Rezervoar Morales and Sons;20;425.6978311134058;294
+441;Rezervoar Blackwell and Sons;17;488.6387570225659;406
+442;Rezervoar Mccarthy and Sons;26;412.5180666142269;203
+443;Rezervoar Cook Ltd;10;411.8982422282476;451
+444;Rezervoar Ford-Wagner;14;495.2614627122166;279
+445;Rezervoar Powell-Brown;5;260.264854355185;295
+446;Rezervoar Lopez LLC;0;128.10386446355375;282
+447;Rezervoar Bryant Group;85;471.2026402815152;379
+448;Rezervoar Simmons-Mayer;29;342.32133419935946;404
+449;Rezervoar Davidson, Howard and Robertson;42;245.10081603634168;167
+450;Rezervoar Joseph-Simmons;93;418.3979234595565;192
+451;Rezervoar Fisher PLC;70;468.5271052202977;268
+452;Rezervoar Watson-Villarreal;84;409.8610890359212;113
+453;Rezervoar Clark, Cruz and Spence;73;176.21604462834694;209
+454;Rezervoar Nelson-Rodriguez;88;376.03119243671995;55
+455;Rezervoar Green, White and Nelson;28;320.59420428653976;233
+456;Rezervoar Goodwin, Green and Carroll;19;417.3402906229904;459
+457;Rezervoar Campbell, Anthony and Flores;96;94.97723511893109;1
+458;Rezervoar Williams-Smith;64;400.16766857946385;254
+459;Rezervoar Arnold Ltd;18;458.0060042741233;356
+460;Rezervoar Smith PLC;39;121.67484151679635;208
+461;Rezervoar Garcia-Chen;38;412.7907460511682;278
+462;Rezervoar Clay, Martinez and Lewis;81;49.19702549147404;418
+463;Rezervoar Perkins, Davidson and Woods;24;12.72930105100404;16
+464;Rezervoar Davis, Vargas and Roman;37;61.416691901807575;96
+465;Rezervoar Randall, Rodriguez and Bishop;99;340.560276661789;35
+466;Rezervoar Hutchinson-Anderson;32;226.84708122577754;61
+467;Rezervoar Cook-Davis;54;472.4924302354427;339
+468;Rezervoar Friedman, Marshall and Cox;51;6.273657852496452;306
+469;Rezervoar Garner-Garcia;38;172.2416242918812;192
+470;Rezervoar Sanford Group;26;152.5895177858577;318
+471;Rezervoar Gonzales, Wilkinson and Curry;75;459.85828929946797;326
+472;Rezervoar Jenkins LLC;78;297.0747576199141;348
+473;Rezervoar Patton, Cook and Parks;62;488.52971730178217;256
+474;Rezervoar Walker, Dixon and Meadows;40;176.39698177940485;131
+475;Rezervoar Brennan-Rogers;89;237.325146643268;409
+476;Rezervoar Miller, Vaughan and Harris;49;376.70606046892425;395
+477;Rezervoar Miller PLC;12;211.92813303028777;301
+478;Rezervoar Santana-Hudson;79;440.43723847103416;486
+479;Rezervoar Allen and Sons;87;245.66392330322054;14
+480;Rezervoar Mata, Manning and Rhodes;48;20.297116029421687;250
+481;Rezervoar Mcbride-Logan;97;453.03183221315953;244
+482;Rezervoar Cooper-Wright;32;272.32374179312865;43
+483;Rezervoar Henderson-Wood;31;362.41503887239395;367
+484;Rezervoar Callahan and Sons;80;461.23313384435176;233
+485;Rezervoar Kim-Rich;48;374.77705858166485;124
+486;Rezervoar Schroeder, Rodriguez and Lewis;77;492.0161231247371;18
+487;Rezervoar Bryant Group;41;155.5969754588623;398
+488;Rezervoar Saunders LLC;90;427.4664545070253;111
+489;Rezervoar Steele, Gutierrez and Nichols;78;205.8929393021906;6
+490;Rezervoar Hatfield, Lee and Martinez;87;65.06369333804473;442
+491;Rezervoar Johnson-Harris;86;390.6366181007745;479
+492;Rezervoar Smith-Kennedy;64;222.77055592448042;258
+493;Rezervoar Perry, Walters and Wagner;23;232.12680891972653;357
+494;Rezervoar Griffin-Brewer;72;194.7008762125114;474
+495;Rezervoar Patterson-Stewart;68;327.1974559906209;25
+496;Rezervoar King, Thomas and Robertson;32;293.24486993042086;358
+497;Rezervoar Robinson-Hooper;66;246.0584016351805;462
+498;Rezervoar Thompson, Chang and Shannon;57;147.4013483965693;84
+499;Rezervoar Hicks-Ayers;5;145.85304195403344;170
+500;Rezervoar Ramirez-Williams;54;55.72761073497584;80
+501;Rezervoar Brown-Hammond;9;100.36241726272515;249
+502;Rezervoar Jones-Collins;31;3.8405573909322097;398
+503;Rezervoar Gray, Brown and Bush;95;403.59452616633394;464
+504;Rezervoar Morris-Barnes;22;386.4588717518977;23
+505;Rezervoar Gillespie, Norris and Robinson;38;92.15622201925441;175
+506;Rezervoar Mccormick-Carter;87;292.20133823099485;253
+507;Rezervoar Miller-Parker;29;357.2001463539044;414
+508;Rezervoar Morgan and Sons;89;474.0725290471013;60
+509;Rezervoar Solis, Houston and Weeks;12;83.05220631110257;68
+510;Rezervoar Wright, Shields and Miller;94;489.41967115096406;310
+511;Rezervoar Wood-Ellis;72;12.815422658700827;255
+512;Rezervoar Carr Ltd;46;397.3743388262516;221
+513;Rezervoar Blackburn, Fisher and Reyes;2;354.49599452363276;460
+514;Rezervoar Duran-Avery;88;184.7758608071593;279
+515;Rezervoar Mcdowell Group;13;209.89367085214957;18
+516;Rezervoar Williams, Young and Lawson;35;218.70927142414075;360
+517;Rezervoar Werner Group;54;34.40233633311461;45
+518;Rezervoar Tucker, Scott and Bradford;33;439.0127318157431;341
+519;Rezervoar Huffman Ltd;45;237.83813245789824;260
+520;Rezervoar King, Richards and Winters;31;453.40150386099526;449
+521;Rezervoar Ingram, Rodriguez and Lopez;17;61.38442780845261;83
+522;Rezervoar Brown, Smith and Lambert;11;285.6398914844436;341
+523;Rezervoar Johnson-Fitzgerald;25;223.6049566065603;280
+524;Rezervoar Mclaughlin-Dixon;47;279.12686861485486;245
+525;Rezervoar Fitzgerald-Wilson;8;485.4618219897828;337
+526;Rezervoar Gonzalez-Blair;23;291.47813500623874;60
+527;Rezervoar Ochoa Inc;71;20.838125913529822;104
+528;Rezervoar Miller Inc;18;150.87120924498285;383
+529;Rezervoar Sanders-Campbell;89;195.96416918624652;191
+530;Rezervoar Park-Davis;7;255.58781825196337;7
+531;Rezervoar Frederick, Wells and Gibbs;14;262.75699876464665;137
+532;Rezervoar Moran-Day;74;265.7291303382805;156
+533;Rezervoar Fox-Hunt;17;160.44506956223466;125
+534;Rezervoar Bailey-Mason;61;400.81142035549107;97
+535;Rezervoar Swanson, Harvey and Suarez;84;237.9050166805047;246
+536;Rezervoar Haynes-Woods;27;50.42445994195764;199
+537;Rezervoar Carter PLC;70;317.0648850045194;278
+538;Rezervoar Ellis PLC;9;73.91008502151138;66
+539;Rezervoar Butler-Holland;65;73.55590574243325;390
+540;Rezervoar Brown, Bennett and Erickson;8;239.36651075764675;38
+541;Rezervoar Marsh Ltd;72;83.20162669037906;321
+542;Rezervoar Duncan, Gomez and Smith;96;207.34080269966796;321
+543;Rezervoar Estes, Sharp and Fitzgerald;46;468.86666604463517;424
+544;Rezervoar Vaughan Group;33;203.7893408445778;386
+545;Rezervoar Black, Sanders and Meyer;55;22.411544080553153;165
+546;Rezervoar Weaver-Keller;99;197.91979011747947;99
+547;Rezervoar Duncan, Turner and Smith;85;363.5211300213576;192
+548;Rezervoar Lopez Group;50;225.4643409968303;429
+549;Rezervoar Brown-Perez;28;374.5556447569016;66
+550;Rezervoar Humphrey and Sons;61;307.8329919930142;405
+551;Rezervoar Davis-Nelson;65;444.48332646384375;331
+552;Rezervoar Williams Group;96;318.0368827096021;124
+553;Rezervoar Brooks-Davis;76;261.10798672978734;255
+554;Rezervoar Robinson and Sons;98;38.45264895214155;308
+555;Rezervoar Campbell, Brooks and Kim;3;209.24090219364052;288
+556;Rezervoar Joseph Ltd;10;352.5327125484763;398
+557;Rezervoar Butler, Norris and Chaney;18;386.6861182530124;21
+558;Rezervoar Nelson, Villegas and Chen;47;139.41732678741513;144
+559;Rezervoar Martin, Higgins and Woods;59;325.433263276509;470
+560;Rezervoar Mejia-Harris;43;152.44494738672606;275
+561;Rezervoar Daniels-Ross;77;164.21679564374733;158
+562;Rezervoar Neal PLC;60;256.20854021911293;198
+563;Rezervoar Jenkins-Bennett;96;435.70836751844246;353
+564;Rezervoar Dodson and Sons;75;347.92953127275143;473
+565;Rezervoar Evans-Flores;87;302.99720400625165;339
+566;Rezervoar Kaiser Ltd;100;287.4200673140317;241
+567;Rezervoar Benitez Inc;43;46.40285977736571;251
+568;Rezervoar Figueroa-Michael;43;266.8368179573252;316
+569;Rezervoar Sims, Sutton and Torres;80;32.40425099093373;323
+570;Rezervoar Ray, Willis and Cline;34;467.14627306427315;448
+571;Rezervoar Whitney Inc;36;297.6224752384829;117
+572;Rezervoar Berg Inc;40;463.4830991029709;166
+573;Rezervoar Meyer LLC;30;283.441447365597;179
+574;Rezervoar Livingston, Collins and Compton;39;96.73142384023868;172
+575;Rezervoar Dillon LLC;66;338.3739576664424;143
+576;Rezervoar Rowland Group;33;299.2824940569714;343
+577;Rezervoar Lewis Ltd;84;94.98803935489588;314
+578;Rezervoar White-Sanchez;100;70.49955871939629;395
+579;Rezervoar Sharp-Robinson;88;148.2126343234856;352
+580;Rezervoar Evans Ltd;87;181.38198277799708;278
+581;Rezervoar Collins LLC;70;161.2501018868966;409
+582;Rezervoar Gonzales, Pham and Armstrong;59;291.29276391518283;89
+583;Rezervoar Pitts-Long;15;362.5717565689126;449
+584;Rezervoar Malone Group;37;319.6590843295048;106
+585;Rezervoar Nash, Hopkins and Gross;76;395.18256796962527;426
+586;Rezervoar Luna-Nixon;43;92.35583901963646;332
+587;Rezervoar Lynch, Garcia and Ochoa;63;188.12431311287932;201
+588;Rezervoar Taylor-Stafford;61;358.80368343814837;478
+589;Rezervoar Wang, Miller and Peterson;72;230.08053322260747;175
+590;Rezervoar Leach LLC;18;128.10813132215955;37
+591;Rezervoar Dennis Group;32;63.0902096352751;193
+592;Rezervoar Bradley, Young and Walker;70;491.9499155517474;2
+593;Rezervoar Mcdaniel-Bates;8;95.27511622893508;479
+594;Rezervoar Peck, Willis and Velasquez;32;463.9750495629962;233
+595;Rezervoar Mccullough, Lyons and Dickson;70;292.208219861671;142
+596;Rezervoar Davis-Sanders;65;284.1593667851843;102
+597;Rezervoar Olson LLC;34;26.445526993328627;219
+598;Rezervoar Washington-Hays;80;490.8666340804863;305
+599;Rezervoar Howe-Schmidt;13;238.70770927629573;199
+600;Rezervoar Hamilton, Romero and Martin;40;60.60294204744659;93
+601;Rezervoar Alexander LLC;15;181.30613158868314;411
+602;Rezervoar Potter, Ford and Lowe;6;21.47627308026088;36
+603;Rezervoar Martinez-Jones;35;54.62335233909528;275
+604;Rezervoar Duncan, Lee and Benson;34;64.58363542818611;50
+605;Rezervoar French, Vasquez and Griffith;95;343.6754112557223;105
+606;Rezervoar Smith-Huffman;5;445.76445779568087;291
+607;Rezervoar Walsh-Smith;7;5.918193016980465;173
+608;Rezervoar Lucas PLC;79;360.0664068260024;146
+609;Rezervoar Hampton-Doyle;55;121.09945553551374;113
+610;Rezervoar Rogers-Ramos;79;302.2269864807869;385
+611;Rezervoar Rush-Smith;34;463.99791820910036;182
+612;Rezervoar Robinson PLC;30;76.69974506984708;284
+613;Rezervoar Mason-Fischer;74;159.04217933426244;113
+614;Rezervoar Huerta-Rasmussen;21;403.04944369370827;423
+615;Rezervoar Villanueva-Peterson;49;102.36746331538204;316
+616;Rezervoar Parker, Carlson and Hopkins;2;477.28218561438837;47
+617;Rezervoar Perry, Brewer and Colon;73;370.48759831824896;499
+618;Rezervoar Burke-Dixon;34;404.96561649920255;64
+619;Rezervoar Nelson, Page and Hale;12;123.85028371099939;209
+620;Rezervoar Clark PLC;28;121.77022902886416;313
+621;Rezervoar Jackson PLC;21;446.0507036194057;470
+622;Rezervoar Mason-Johnson;28;140.45587078918564;2
+623;Rezervoar Clark, Richardson and Cordova;30;335.9096355582671;223
+624;Rezervoar Sparks, Schmidt and Hartman;74;430.5867301170412;435
+625;Rezervoar Murphy-Thornton;49;223.63643761337187;119
+626;Rezervoar Eaton-Lewis;12;423.7938223474962;210
+627;Rezervoar Thomas, Burgess and Barnes;91;222.62240140006875;77
+628;Rezervoar Smith PLC;94;444.1710873309767;436
+629;Rezervoar Walker and Sons;78;375.5963962577369;12
+630;Rezervoar Reed Group;69;382.76286279849654;106
+631;Rezervoar Smith-Jones;86;246.268393634919;405
+632;Rezervoar Fisher LLC;67;171.80207872925646;11
+633;Rezervoar Schwartz LLC;63;254.2721075952297;199
+634;Rezervoar Hodges, Armstrong and Massey;56;303.6704140866497;191
+635;Rezervoar Wood-Stevenson;18;352.02473736257195;308
+636;Rezervoar Ramos, Garcia and Carrillo;89;341.95594367723515;87
+637;Rezervoar Keller Group;100;202.5991493639225;112
+638;Rezervoar Thompson-Morton;40;177.27947934825747;141
+639;Rezervoar Henry-Patterson;31;357.75195870584787;461
+640;Rezervoar Whitney and Sons;29;190.34258580667807;450
+641;Rezervoar Rasmussen, Brown and Nixon;60;480.36688415790877;352
+642;Rezervoar Williams LLC;72;122.79237539390584;358
+643;Rezervoar Fox-Bruce;8;226.67065769301178;410
+644;Rezervoar Rhodes, Patterson and Wilson;2;195.04606934082955;177
+645;Rezervoar Rios-Allen;46;191.10449541528945;252
+646;Rezervoar Massey, Salazar and Morrison;55;362.36506595625315;466
+647;Rezervoar Marks, Harrington and Bowman;54;45.640991682140594;131
+648;Rezervoar Cannon, Sanchez and Gonzalez;44;115.0498612470306;188
+649;Rezervoar Rose Group;33;239.786844677411;87
+650;Rezervoar Hunt, Arnold and Hogan;28;426.9698259768024;331
+651;Rezervoar Carpenter, Moreno and Reed;66;299.95350503874823;415
+652;Rezervoar Moyer and Sons;25;423.10537120782107;196
+653;Rezervoar Harrell, Hamilton and Ryan;46;24.94128450449116;118
+654;Rezervoar Bailey-Newton;11;353.8451695442878;82
+655;Rezervoar Cook Group;11;308.1095276844582;284
+656;Rezervoar Morrison, Page and Gilbert;6;125.94516829064804;269
+657;Rezervoar Daniels-Henry;32;227.0973148820224;151
+658;Rezervoar Welch, Anderson and Riley;18;429.39162621282776;143
+659;Rezervoar Johnson, Mcmahon and Scott;23;115.31524488570335;160
+660;Rezervoar Powell, Estrada and Noble;21;260.7334767604073;119
+661;Rezervoar Thompson-Kerr;11;310.8513800354385;294
+662;Rezervoar Hardy, Brown and Foster;83;391.767271737361;447
+663;Rezervoar Bright and Sons;94;88.79602013404107;281
+664;Rezervoar Bates-Hamilton;60;471.0660366580541;459
+665;Rezervoar Davis, Brown and Powell;21;118.88636603633849;414
+666;Rezervoar Figueroa-Wallace;25;301.7145348530412;40
+667;Rezervoar Castaneda, Nixon and Lambert;8;386.6453203905645;138
+668;Rezervoar Haynes Group;100;90.1865674588286;64
+669;Rezervoar Patel Inc;99;231.80602730934237;390
+670;Rezervoar Williams, Pearson and Kim;47;361.88103941293855;79
+671;Rezervoar Mason-Cobb;68;466.1429021672647;126
+672;Rezervoar Perez, Johnson and Lewis;100;5.36449966142661;438
+673;Rezervoar Ramirez-Barnett;21;383.408465667787;263
+674;Rezervoar Villegas and Sons;2;250.9556305687901;459
+675;Rezervoar Wilson-Fletcher;7;197.50903243079486;86
+676;Rezervoar Hernandez PLC;6;235.06437773852642;434
+677;Rezervoar Kennedy, Lopez and Bell;16;121.72085761265795;312
+678;Rezervoar Herrera, Chan and Rodriguez;47;287.35838703658857;143
+679;Rezervoar Colon, Webster and Miller;59;123.6486712471927;90
+680;Rezervoar Carpenter Inc;90;55.82821557671886;128
+681;Rezervoar Allen-Diaz;20;320.42792376428366;387
+682;Rezervoar White-Mcdonald;5;34.46994122449523;194
+683;Rezervoar Greene LLC;17;1.286122294620005;236
+684;Rezervoar Cannon-Morton;67;399.62018835908395;347
+685;Rezervoar Lyons, Morris and Smith;96;198.11344317799472;278
+686;Rezervoar Tran Ltd;92;202.54533245047594;269
+687;Rezervoar Evans, Perez and Wong;59;481.09034462294926;483
+688;Rezervoar Kelly, Hampton and Conner;66;177.61380750243347;311
+689;Rezervoar Riley PLC;73;359.45957195741113;384
+690;Rezervoar Patterson, Lam and Cantu;51;376.063999633964;269
+691;Rezervoar Martin, Terry and Adams;52;84.2808681806409;440
+692;Rezervoar Vaughn-Spears;63;63.99368126403183;19
+693;Rezervoar Pitts PLC;26;37.63511892631131;189
+694;Rezervoar Collins Group;38;58.65256134117751;463
+695;Rezervoar Walker, Le and Freeman;52;191.9035683095169;154
+696;Rezervoar Perez-Mitchell;47;12.914049051389393;250
+697;Rezervoar Young-James;25;375.40537601712884;111
+698;Rezervoar Montgomery-Myers;55;387.7609568580119;385
+699;Rezervoar Brown, Porter and Hull;18;225.52027685741623;303
+700;Rezervoar Fields, Bryant and Hernandez;97;374.86343069957724;333
+701;Rezervoar Wolfe LLC;38;198.78402507306183;73
+702;Rezervoar Cross-Miller;2;450.3512851693382;463
+703;Rezervoar Villa-Young;56;127.20705665574327;205
+704;Rezervoar Smith Group;59;356.7322488660898;191
+705;Rezervoar Taylor LLC;26;232.18635330406303;213
+706;Rezervoar Brown, Bradford and Kirby;6;123.43763734336935;75
+707;Rezervoar Ruiz, Orozco and Kim;81;461.4506163413907;152
+708;Rezervoar Sanchez, Medina and Williams;47;27.506551488690068;239
+709;Rezervoar Rodriguez-Howard;49;443.63621760206354;447
+710;Rezervoar Bennett, Wheeler and Smith;55;39.9836150670051;151
+711;Rezervoar Black-Salas;45;410.7260151488199;283
+712;Rezervoar Gill Inc;61;21.221683174778587;445
+713;Rezervoar Peterson-Smith;61;34.81007288313455;170
+714;Rezervoar Powell PLC;24;155.8605456432004;260
+715;Rezervoar Miller, Bailey and Moreno;21;6.517036170197108;52
+716;Rezervoar Reilly-Robinson;18;372.4245188149915;288
+717;Rezervoar English, Moore and Thomas;34;30.883594217278578;261
+718;Rezervoar Scott-Kelly;27;315.7065793054135;191
+719;Rezervoar Morgan-Lewis;3;224.73097033279097;172
+720;Rezervoar Davis Ltd;78;230.68519453045684;319
+721;Rezervoar Duke, Parker and Wang;41;143.1786577002391;27
+722;Rezervoar Howell PLC;66;293.22496091966025;453
+723;Rezervoar Brooks, Miller and West;56;379.4877479543604;222
+724;Rezervoar Greene, Clark and Williams;97;257.4718493226305;342
+725;Rezervoar Miller, Hamilton and Murphy;99;274.44688345196505;384
+726;Rezervoar Olson LLC;72;253.46792195422424;496
+727;Rezervoar Hopkins, Gallagher and Harper;19;466.5408435130996;194
+728;Rezervoar Brown, Franco and Short;42;330.6475145475664;226
+729;Rezervoar Jenkins Inc;93;361.5492164788182;137
+730;Rezervoar Glover, Morton and Stone;18;71.96340962717139;469
+731;Rezervoar Carter-Bush;25;47.501611261221036;197
+732;Rezervoar Wong, Brown and Carey;35;197.80530367716054;22
+733;Rezervoar Mcdaniel PLC;5;152.1522350836191;489
+734;Rezervoar Perez, Moreno and Jones;17;98.05222949959007;292
+735;Rezervoar Anderson-Alexander;24;209.37693695676595;423
+736;Rezervoar Aguilar, Todd and Oneal;19;214.02883463338705;291
+737;Rezervoar Taylor-Johnston;32;495.22272064625884;108
+738;Rezervoar Smith Ltd;0;495.5222229365103;84
+739;Rezervoar Tran Inc;4;133.48833659955653;248
+740;Rezervoar Thomas-Shaw;100;33.97844740992878;240
+741;Rezervoar Flores Inc;21;462.4860702874756;253
+742;Rezervoar Walls, Manning and Duncan;14;40.90479563205798;236
+743;Rezervoar Delgado Inc;43;308.7823787199931;191
+744;Rezervoar Miles-Payne;60;477.878544936369;133
+745;Rezervoar Lutz, Bradley and Nguyen;73;279.7257244245317;456
+746;Rezervoar Walls, Jones and Mcpherson;94;165.96933216699014;341
+747;Rezervoar Ali-Wheeler;41;263.82786854836013;342
+748;Rezervoar Stephens Group;87;417.8439687607101;302
+749;Rezervoar Branch-Stevens;66;341.6181143686424;413
+750;Rezervoar Townsend, Conway and May;76;389.369760009635;126
+751;Rezervoar Mcdaniel LLC;28;407.6509955308614;223
+752;Rezervoar Dixon-Torres;61;136.82207737675793;482
+753;Rezervoar Johnson-Ross;65;150.98390576197437;499
+754;Rezervoar Walker Ltd;92;495.6651379536825;27
+755;Rezervoar Bass Group;75;150.87090314950956;442
+756;Rezervoar Silva LLC;32;54.14190427370688;76
+757;Rezervoar Sims-Savage;71;112.5889806628198;402
+758;Rezervoar Smith-Davis;28;440.49233166971965;128
+759;Rezervoar Osborne, Walker and Cook;59;452.68215476331017;475
+760;Rezervoar Foster-Brooks;12;348.9934802693309;259
+761;Rezervoar Reynolds-Brown;46;206.90986753642008;205
+762;Rezervoar Johnson-Bailey;53;283.71986203100795;154
+763;Rezervoar Davenport LLC;10;122.0046005402527;320
+764;Rezervoar Watson, Ellis and Rivera;61;474.2973208522537;340
+765;Rezervoar Vance, Lewis and Brock;8;387.7080545102398;475
+766;Rezervoar Lyons, Wright and Davis;7;218.3760892194243;418
+767;Rezervoar Parker, Adams and Murray;55;77.86892532331665;243
+768;Rezervoar Bridges, Williams and Lee;3;167.55914105370204;190
+769;Rezervoar Miller PLC;15;154.69569929395223;250
+770;Rezervoar Reilly, Hughes and Bradford;62;463.9899226440404;203
+771;Rezervoar Martinez, Taylor and Henderson;75;107.80025647769517;221
+772;Rezervoar Crawford-Blankenship;30;143.9473280338548;313
+773;Rezervoar Lopez-Lowe;21;168.71953170326952;307
+774;Rezervoar Jackson Inc;41;297.1295746940894;437
+775;Rezervoar Li PLC;10;51.22925665203733;43
+776;Rezervoar Anderson Ltd;94;5.236441737957864;277
+777;Rezervoar Gill-Anderson;54;246.8315885766899;48
+778;Rezervoar Cole-Braun;89;324.33691080504616;27
+779;Rezervoar Rodriguez, Robinson and Chase;0;236.13286264694455;17
+780;Rezervoar Smith PLC;17;146.4200920080157;432
+781;Rezervoar Davis LLC;46;339.69112237651035;471
+782;Rezervoar Good-Wright;89;179.2680003521074;293
+783;Rezervoar Morse, Pope and Clark;11;21.17448605928985;458
+784;Rezervoar Robinson-Gonzalez;39;165.74072766218845;20
+785;Rezervoar Robertson LLC;74;42.09054974544157;21
+786;Rezervoar Hernandez, Diaz and Flores;78;1.106344423394332;473
+787;Rezervoar Long, Hodges and Johnson;24;394.9817991837655;460
+788;Rezervoar Mullen, Mora and Williams;50;412.2712700944176;252
+789;Rezervoar Baldwin PLC;13;134.39781636068005;150
+790;Rezervoar Sandoval, Mccall and Lyons;78;418.58806392936157;37
+791;Rezervoar Stephens LLC;78;142.93798249341086;34
+792;Rezervoar Collier-Grimes;59;303.4776985522011;134
+793;Rezervoar Durham LLC;20;322.08854955629636;359
+794;Rezervoar Walker-Stephens;65;48.96397473448023;311
+795;Rezervoar Francis, Stanton and Gibson;28;344.826981846726;17
+796;Rezervoar Castro Inc;50;426.226060070024;341
+797;Rezervoar Gibson-Levy;20;347.7594769586436;415
+798;Rezervoar Mcbride, Harvey and Ramsey;57;180.01720932051975;261
+799;Rezervoar Lloyd PLC;39;147.53298148580802;362
+800;Rezervoar Savage, Wilson and Santiago;51;209.56682936605785;477
+801;Rezervoar Mcgrath, Larsen and Friedman;30;397.3344958000983;434
+802;Rezervoar Patterson-Davis;39;333.46142701788403;108
+803;Rezervoar Barrett, Peterson and Rodriguez;30;231.18209422537484;361
+804;Rezervoar Johnson Group;19;19.36202772443823;31
+805;Rezervoar Perry-Thomas;75;437.69567285285405;76
+806;Rezervoar Myers-Herrera;13;499.11463531860096;65
+807;Rezervoar Roberts-Bowers;19;361.6620954397889;145
+808;Rezervoar Cook, Waters and Schultz;98;167.03137790542226;164
+809;Rezervoar Robinson-Velazquez;74;120.38777360023258;247
+810;Rezervoar Coleman-Ward;55;205.53040170063548;477
+811;Rezervoar Preston, Montgomery and Williams;82;334.46640227993413;344
+812;Rezervoar Perez, Campbell and Ayala;70;364.960847305117;155
+813;Rezervoar Hall PLC;90;105.67616724147817;243
+814;Rezervoar Davenport and Sons;83;17.8842283915017;81
+815;Rezervoar James LLC;50;96.55281331537465;34
+816;Rezervoar Mathis, Austin and Rodriguez;6;16.658376617130276;437
+817;Rezervoar Myers, Collins and Tanner;32;195.3899755186936;417
+818;Rezervoar Black, Powell and Joseph;63;232.28846945245857;495
+819;Rezervoar Shepard, Hopkins and Walton;50;392.07866655932156;442
+820;Rezervoar Miller LLC;41;225.3565107309723;418
+821;Rezervoar Soto Inc;41;372.8953469871123;363
+822;Rezervoar Good, Reed and Wilson;54;329.54400246649533;491
+823;Rezervoar Shah Inc;96;283.7178006261497;359
+824;Rezervoar Washington LLC;23;4.711912994965182;402
+825;Rezervoar Lopez-Parker;21;477.1904965866326;213
+826;Rezervoar Kramer, Griffin and Goodman;11;243.96020793829078;172
+827;Rezervoar Carrillo Ltd;18;21.970712439904684;72
+828;Rezervoar Olson Group;30;256.8794211101308;254
+829;Rezervoar Bishop Group;35;453.74614118729113;370
+830;Rezervoar Martin, Jackson and Boyd;23;209.51722680915958;395
+831;Rezervoar Wade-Mills;1;316.1374428719508;365
+832;Rezervoar Stanley-Wilson;43;400.3041040288179;191
+833;Rezervoar Thornton, Edwards and Maldonado;43;2.365916112020784;248
+834;Rezervoar Torres-Rose;98;412.3376966466588;257
+835;Rezervoar Griffin-Johnson;25;106.31981918033297;171
+836;Rezervoar Lee-Woods;87;329.67415490023245;378
+837;Rezervoar Fuller, Garcia and Freeman;95;252.98558878488515;272
+838;Rezervoar Peterson-Washington;50;444.903598955563;303
+839;Rezervoar Patrick, Brown and Martinez;78;463.3625359050932;101
+840;Rezervoar Yang LLC;55;385.086206562509;375
+841;Rezervoar Murphy Inc;5;228.0212977462047;369
+842;Rezervoar Johnson, Stewart and Cook;75;274.01446731989415;276
+843;Rezervoar Richards Ltd;96;228.76174672106143;146
+844;Rezervoar Roberts LLC;42;9.93953596249827;302
+845;Rezervoar Palmer Group;80;482.577789627964;33
+846;Rezervoar Collins LLC;60;414.9468316081088;214
+847;Rezervoar Jones Group;59;457.13849772736086;312
+848;Rezervoar Lambert Inc;73;116.24167296753572;162
+849;Rezervoar Contreras, King and Kent;75;112.22687275846599;136
+850;Rezervoar Torres-Lewis;38;445.8650848148412;437
+851;Rezervoar Vasquez LLC;4;408.55139759560666;343
+852;Rezervoar Smith LLC;74;127.81681548812593;136
+853;Rezervoar Austin-Hill;0;265.8406663490921;21
+854;Rezervoar Rodriguez, Cohen and Evans;28;476.05228579738775;231
+855;Rezervoar Bell Group;30;199.09311049523168;221
+856;Rezervoar Lopez Group;6;479.36008591932614;411
+857;Rezervoar Nelson, Cummings and Davis;35;268.0935604229413;461
+858;Rezervoar Jones-Henry;69;470.0185352933464;9
+859;Rezervoar Smith Inc;64;434.4044174503239;376
+860;Rezervoar Rodriguez-Brooks;98;320.36980717039796;157
+861;Rezervoar Garcia, Krueger and Berger;98;300.5222420617475;27
+862;Rezervoar Collins LLC;63;494.4453265481289;110
+863;Rezervoar Ramirez Ltd;68;330.98300436606456;148
+864;Rezervoar Howard, Patel and Lopez;99;58.819958007050346;121
+865;Rezervoar Mathews-Reyes;49;280.816602462045;169
+866;Rezervoar Sosa Group;22;272.9865640729305;103
+867;Rezervoar Larson Group;1;342.85693630070045;41
+868;Rezervoar Miller, Melton and Williams;42;323.7746473815483;485
+869;Rezervoar Allen-Meyer;61;11.32475728266318;67
+870;Rezervoar Reyes PLC;95;365.77727252869613;87
+871;Rezervoar Moreno-Mathews;84;146.86599739069956;132
+872;Rezervoar Jackson, Gonzalez and Mcclure;53;81.76887409442153;219
+873;Rezervoar Munoz, Bryant and Smith;26;364.8517345695923;186
+874;Rezervoar Cummings-Cruz;12;382.78125740542254;148
+875;Rezervoar Peterson-Young;39;498.94465603394394;355
+876;Rezervoar Smith, Powers and Green;70;319.8722794668845;40
+877;Rezervoar Cummings, Craig and Mendez;19;436.737358783178;437
+878;Rezervoar Miller, Palmer and Hall;0;476.8391792814147;34
+879;Rezervoar Johnson Group;99;385.3993819312664;389
+880;Rezervoar Holloway, Allen and Vang;34;482.6066935532262;59
+881;Rezervoar White-Clark;97;226.1945051284685;63
+882;Rezervoar Walker-Simmons;64;383.2338965964351;400
+883;Rezervoar Brown-Guerra;68;233.1833157455848;63
+884;Rezervoar Rangel Group;61;334.33119066483255;143
+885;Rezervoar Rivera Inc;100;42.55078249255765;404
+886;Rezervoar Marshall-Kelly;11;177.26684156077255;199
+887;Rezervoar Bridges-Martin;24;273.106922771971;129
+888;Rezervoar Bartlett, Green and Harris;92;10.095545824982523;468
+889;Rezervoar Callahan-Ali;79;402.3832923378172;407
+890;Rezervoar Mcdonald, Lee and Torres;98;44.12567663244431;33
+891;Rezervoar Davis-Rhodes;20;73.7606563993431;83
+892;Rezervoar Pacheco-Matthews;66;407.7937556212795;274
+893;Rezervoar Thomas-Brown;24;239.8664876190249;474
+894;Rezervoar Holloway-Espinoza;96;316.1535596723848;16
+895;Rezervoar Hoffman, Mann and Moore;43;426.89960640855;406
+896;Rezervoar Khan-Haynes;96;216.7683752304399;414
+897;Rezervoar Green Ltd;65;388.1552232510813;207
+898;Rezervoar Wilson Group;27;84.59398347796271;318
+899;Rezervoar Davis-Jones;81;242.22814039109812;301
+900;Rezervoar Bond, Haynes and Hamilton;95;348.9799901797129;500
+901;Rezervoar Collins-Williams;95;114.1488486112734;337
+902;Rezervoar Spence, Moore and Ward;99;247.69321154185698;395
+903;Rezervoar Mcclure-Thompson;58;194.2505250706135;329
+904;Rezervoar Williams and Sons;47;100.35742575738799;22
+905;Rezervoar Goodwin, Andrews and White;4;227.0018000070168;2
+906;Rezervoar Meyer and Sons;73;178.35530918496502;341
+907;Rezervoar Rosales-Lynch;47;324.7096955703503;213
+908;Rezervoar Lopez, Lucas and Flores;95;418.9220392608006;497
+909;Rezervoar Turner, Liu and Hart;40;431.14141642508775;44
+910;Rezervoar Moore Inc;17;421.66816984782145;305
+911;Rezervoar Olson, Camacho and Morris;66;281.14473171007967;60
+912;Rezervoar Nelson, Wallace and Kelly;75;68.74938073189162;254
+913;Rezervoar Edwards-Martin;70;498.0717035848698;372
+914;Rezervoar Nunez, Williamson and Cook;97;171.01096258131238;320
+915;Rezervoar Harris-Lopez;4;393.2869649363914;327
+916;Rezervoar Russell-Reed;40;123.77274989870953;275
+917;Rezervoar Brown-Miller;54;147.43220715545453;440
+918;Rezervoar Miller and Sons;13;28.401590128133094;154
+919;Rezervoar Jones, Walker and Wolf;85;482.07492283138;71
+920;Rezervoar Sheppard, Snyder and Hartman;89;129.88241905742123;195
+921;Rezervoar Waters, Glover and White;19;141.05337311052273;436
+922;Rezervoar Mitchell-Dixon;52;490.673821651371;500
+923;Rezervoar Roberts-Rowe;67;182.52883357912836;256
+924;Rezervoar Webster-Gibson;39;369.57557017065767;209
+925;Rezervoar Hunter, Joseph and Hall;2;14.047743548793177;146
+926;Rezervoar Blackwell-Waller;41;93.20329762390519;48
+927;Rezervoar Steele, Cox and Watson;17;465.7737479653374;309
+928;Rezervoar Lewis-Hanson;76;425.93337596923993;186
+929;Rezervoar Hurley Ltd;14;48.48347547162253;136
+930;Rezervoar Frederick LLC;98;167.55879299221596;455
+931;Rezervoar Oconnell LLC;15;92.12685983351815;109
+932;Rezervoar Henry Ltd;74;400.38542234406316;119
+933;Rezervoar Clarke-Fisher;6;138.98093389297102;431
+934;Rezervoar Bentley Group;97;275.55398557830955;278
+935;Rezervoar Cummings, Bowman and Lamb;10;405.9769738442758;282
+936;Rezervoar Haas, Stanton and Scott;73;435.2799082439439;280
+937;Rezervoar Rivers Group;38;453.2533874484226;337
+938;Rezervoar Perry-Garcia;38;51.117423338946544;207
+939;Rezervoar Williams, Kent and Williams;96;465.4628901506064;160
+940;Rezervoar Fuentes and Sons;53;47.39077145822982;171
+941;Rezervoar Wu Ltd;34;370.8060663787624;71
+942;Rezervoar Clark LLC;8;48.063169878295994;484
+943;Rezervoar Rodriguez-Davis;75;3.000714945104093;457
+944;Rezervoar Carlson-Walker;61;22.219899104105927;415
+945;Rezervoar Hernandez LLC;46;203.58835622251215;55
+946;Rezervoar Garcia-Cherry;33;80.2446664559548;482
+947;Rezervoar Ortiz and Sons;71;447.6172362808842;127
+948;Rezervoar Anderson, Manning and Francis;10;167.69735260323822;95
+949;Rezervoar Phillips LLC;83;459.1634105215862;359
+950;Rezervoar Kerr Inc;13;315.7885996499051;9
+951;Rezervoar Brewer-Adams;60;109.99052256826741;363
+952;Rezervoar Davenport Group;16;85.5154223456455;491
+953;Rezervoar Stephens-Alexander;87;255.33254189830035;209
+954;Rezervoar Porter, Johnson and Gallegos;0;341.02419038090545;449
+955;Rezervoar Shelton Ltd;34;288.7686863730538;374
+956;Rezervoar Juarez-Garcia;99;421.0782531245606;253
+957;Rezervoar Henderson LLC;70;119.71793912072818;221
+958;Rezervoar Gonzalez and Sons;27;307.01572054456364;199
+959;Rezervoar Parks, Lee and Kelly;24;412.68766269358093;150
+960;Rezervoar Perry-Becker;44;68.96904531758854;499
+961;Rezervoar Lee Group;75;206.35996620701528;297
+962;Rezervoar Hart, Lopez and Johnson;36;135.41075910081193;316
+963;Rezervoar Wallace-Bradley;15;353.7452767840912;131
+964;Rezervoar Thompson Ltd;82;303.0227042909037;1
+965;Rezervoar Garcia, Carter and Morgan;14;203.36693674160497;98
+966;Rezervoar Rasmussen-Crosby;95;127.21516974239557;66
+967;Rezervoar Harrison, Fowler and Martin;73;92.99460822648307;329
+968;Rezervoar Smith-White;74;60.86864053919912;344
+969;Rezervoar Rivera LLC;31;67.0918385447787;21
+970;Rezervoar Archer PLC;29;499.07434435001005;382
+971;Rezervoar Smith PLC;5;365.89498979618713;351
+972;Rezervoar Ferguson, Hicks and Spence;50;67.34807300302924;112
+973;Rezervoar Ramsey, Smith and Dominguez;35;479.74050656850756;295
+974;Rezervoar Simpson-Carroll;0;326.274645364972;368
+975;Rezervoar Hudson-Lawson;14;415.15538315039754;8
+976;Rezervoar Contreras Inc;52;54.36987297488102;106
+977;Rezervoar Bolton, Martinez and Kline;57;73.04746619870353;371
+978;Rezervoar Roberts, Cordova and Pruitt;82;393.0131433941337;445
+979;Rezervoar Nelson-Wilson;47;163.23069464152863;211
+980;Rezervoar Richmond Inc;48;330.1005935737051;349
+981;Rezervoar Dominguez, Smith and Thomas;35;222.2624744392689;104
+982;Rezervoar Cox Inc;81;73.81182452428303;200
+983;Rezervoar Charles-Murphy;45;94.81234578121888;341
+984;Rezervoar Escobar-Roach;84;122.14148518045806;251
+985;Rezervoar Clark-Harris;35;219.28795872194897;130
+986;Rezervoar Suarez Inc;0;217.21340198313942;82
+987;Rezervoar Wagner PLC;7;390.915150698866;427
+988;Rezervoar Morales, Estes and Mason;7;374.4138335281242;269
+989;Rezervoar Wood, Ryan and Reese;37;102.71609954006053;57
+990;Rezervoar Jones Group;36;71.20823280840841;144
+991;Rezervoar Mcintyre Inc;22;213.64999130932785;8
+992;Rezervoar Lambert, Sullivan and Boyer;60;393.0619163926991;272
+993;Rezervoar Torres PLC;8;293.6557408031828;179
+994;Rezervoar Kirby-Clark;38;322.48075728813967;231
+995;Rezervoar Donovan, Gross and Cohen;25;344.5270212595169;142
+996;Rezervoar Curry-Miller;61;481.7905801900242;139
+997;Rezervoar Gomez-Simpson;20;240.69479341851368;225
+998;Rezervoar Williams, Harris and Brown;17;9.555741039834157;121
+999;Rezervoar Barton, Murray and Berry;82;243.46538023580788;113
+1000;Rezervoar Grant Ltd;70;255.33915743457044;479
