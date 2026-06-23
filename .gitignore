@@ -1,6 +1,6 @@
 # Marimo editor cache
-_marimo/
-_marimo/*
+__marimo__/
+__pycache__/
 
 # Database files
 baze/
@@ -10,3 +10,9 @@ baze/
 # Temporary files
 ~$*
 *.tmp
+
+# Ignore Marimo session folders anywhere
+__marimo__/
+
+# Do not track the seminarski template document
+seminarski-template.doc
